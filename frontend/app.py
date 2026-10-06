@@ -1,6 +1,4 @@
-from pathlib import Path
-
-app_code = r'''import os
+import os
 import re
 from typing import Any, Dict, List, Optional
 
@@ -913,8 +911,3 @@ st.markdown(
 """,
     unsafe_allow_html=True,
 )
-'''
-
-out = Path("/mnt/data/app.py")
-out.write_text(app_code, encoding="utf-8")
-print(f"Created {out} ({len(app_code):,} characters)")
