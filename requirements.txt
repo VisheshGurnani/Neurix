@@ -1,0 +1,13 @@
+# FastAPI and Uvicorn
+fastapi==0.115.6
+uvicorn[standard]==0.34.2
+pydantic==2.10.5
+
+# GitPython for repository cloning
+GitPython==3.1.44
+
+# python-dotenv for environment variables
+python-dotenv==1.0.1
+
+# HTTP client for Groq API requests
+httpx==0.28.1
