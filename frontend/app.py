@@ -22,7 +22,7 @@ st.set_page_config(
 # Configuration
 # -----------------------------------------------------------------------------
 
-API_URL = os.getenv("NEURIX_API_URL", "http://127.0.0.1:8000").rstrip("/")
+API_URL = "https://neurix-g2k3.onrender.com"
 DEFAULT_REPO = "https://github.com/VisheshGurnani/Neurix"
 
 STAGES = [
